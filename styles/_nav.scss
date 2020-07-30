@@ -1,15 +1,32 @@
+.nav__wrapper{
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
 .nav__container{
     display: flex;
+    justify-content: space-between;
     width:100%;
+    max-width: 1200px;
+    font-family: josefin-sans,sans-serif;
+    text-transform: uppercase;
+    color:white;
+}
 
-}
 .nav__list-group{
-    display: inline-block;
-    color: green;
+    padding: 0.5rem;
 }
+.nav__link{
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 1rem;
+}
+
 .nav__btn--search{
     
 }
 .nav__btn--donate{
-
+    background-color: var(--orange);
+    padding: 0.7rem;
 }
