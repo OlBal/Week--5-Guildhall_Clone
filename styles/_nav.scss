@@ -1,15 +1,44 @@
+.nav__wrapper{
+    width: 100%;
+    background-color: #282827;
+    display:flex;
+    justify-content: center;
+}
 .nav__container{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     width:100%;
+    max-width: 1000px;
+    font-family: 'josefin-sans',sans-serif;
+    text-transform: uppercase;
+    color:white;
+    font-size: 0.7rem;
+}
 
-}
 .nav__list-group{
-    display: inline-block;
-    color: green;
+    padding: 0.5rem;
 }
+.nav__link{
+    display: inline-block;
+    font-size: 0.7rem;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
 .nav__btn--search{
-    
+    background-color: inherit;
+    color: white;
+    text-transform: inherit;
+    padding: 0.7rem;
+}
+
+.nav__link:hover, .nav__btn--search:hover{
+    color: var(--gray)
 }
 .nav__btn--donate{
-
+    background-color: #f5ad10;
+    display: inline-block;
+    padding: 0.7rem;
+    align-items: center;
 }
