@@ -46,7 +46,17 @@ table {
   border-spacing: 0; }
 
 a, a:visited {
-  color: inherit; }
+  color: inherit;
+  text-decoration: inherit; }
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; }
 
 :root {
   --blue: #007bff;
@@ -81,23 +91,22 @@ a, a:visited {
 p {
   color: black; }
 
-nav {
-  border: 1px solid red; }
-
 .nav__wrapper {
   width: 100%;
-  background-color: black;
+  background-color: #282827;
   display: flex;
   justify-content: center; }
 
 .nav__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  max-width: 1200px;
-  font-family: josefin-sans,sans-serif;
+  max-width: 1000px;
+  font-family: 'josefin-sans',sans-serif;
   text-transform: uppercase;
-  color: white; }
+  color: white;
+  font-size: 0.7rem; }
 
 .nav__list-group {
   padding: 0.5rem; }
@@ -105,8 +114,28 @@ nav {
 .nav__link {
   display: inline-block;
   font-size: 0.7rem;
-  margin: 0 1rem; }
+  margin: 0 1rem;
+  text-decoration: none; }
+
+.nav__btn--search {
+  background-color: inherit;
+  color: white;
+  text-transform: inherit;
+  padding: 0.7rem; }
+
+.nav__link:hover, .nav__btn--search:hover {
+  color: var(--gray); }
 
 .nav__btn--donate {
-  background-color: var(--orange);
-  padding: 0.7rem; }
+  background-color: #f5ad10;
+  display: inline-block;
+  padding: 0.7rem;
+  align-items: center; }
+
+:root {
+  font-size: 15px; }
+
+@font-face {
+  font-family: 'josefin-sans';
+  font-weight: 600;
+  src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }
