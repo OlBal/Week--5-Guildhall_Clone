@@ -17,14 +17,14 @@ gulp.task('sass', function () {
 	return gulp.src('styles/main.scss')
 		.pipe(sass())
 		.pipe(rename('main.css'))
-		.pipe(gulp.dest('./styles/'));
+		.pipe(gulp.dest('./css/'));
 }); 
 
 gulp.task('minify-css', () => {
     return gulp.src('styles/main.css')
       .pipe(cleanCSS({compatibility: 'ie8'})
       .pipe(rename({suffix: '.min'})))
-      .pipe(gulp.dest('./styles/'));
+      .pipe(gulp.dest('./css/'));
   });
 
   gulp.task( 'watch', function () {
