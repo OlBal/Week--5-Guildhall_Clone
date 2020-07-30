@@ -4,7 +4,7 @@ const cleanCSS = require('gulp-clean-css');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 sass.compiler = require('node-sass')
-const minifystyle = require('gulp');
+
 
 
 gulp.task('minify-js', function() {
@@ -20,13 +20,13 @@ gulp.task('sass', function () {
 		.pipe(gulp.dest('./css/'));
 }); 
 
-gulp.task('minify-css', () => {
-    return gulp.src('css/main.css')
-      .pipe(cleanCSS({compatibility: 'ie8'})
-      .pipe(rename({suffix: '.min'})))
-      .pipe(gulp.dest('./css/'));
-  });
- 
+gulp.task( 'minify-css', () => {
+  return gulp.src( 'css/main.css' )
+  .pipe( cleanCSS( {compatibility: 'ie8'} ) )
+  .pipe( rename( {suffix: '.min'} ) )
+  .pipe( gulp.dest( './css/' ) );
+} );
+
   gulp.task( 'minifystyle', gulp.series( 'sass', 'minify-css' ) );
 
   gulp.task( 'watch', function () {
