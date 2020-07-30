@@ -34,7 +34,7 @@
 }
 
 .nav__link:hover, .nav__btn--search:hover{
-    color: var(--gray)
+    color: #ddd
 }
 .nav__btn--donate{
     background-color: #f5ad10;
@@ -51,4 +51,8 @@
 .nav__link--secondary{
     display: inline-block;
     padding: 1rem;
+}
+
+.nav__link--secondary:hover{
+    color: #f5ad10
 }
