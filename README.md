@@ -11,19 +11,19 @@ Group 3
  ## HTML Breakdown
   
  ### Header
-     Nav Primary
-     Nav Secondary
+     Nav Primary - W
+     Nav Secondary - W
         
 ### Main 
-    Hero
-    Whats on cards
-    Banner
-    Carousel
-    Banner
-    News
+    Hero - A
+    Whats on cards - A
+    Banner - A
+    Carousel - O
+    Banner - O
+    News - O
     
 ### Footer     
-    Mailing List
-    Contact
-    T&Cs/Icons
-    Cookies banner 
+    Mailing List - W
+    Contact - W
+    T&Cs/Icons -W
+    Cookies banner - W
