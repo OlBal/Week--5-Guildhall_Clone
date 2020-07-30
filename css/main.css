@@ -36,3 +36,11 @@ nav {
 
 body {
   background-color: red; }
+
+.nav__container {
+  display: flex;
+  width: 100%; }
+
+.nav__list-group {
+  display: inline-block;
+  color: green; }
