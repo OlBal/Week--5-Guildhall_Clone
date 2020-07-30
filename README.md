@@ -2,15 +2,19 @@
 Group 3
 
 
+# To Do:
+    first, build the site as a static desctop version 
+    put the page on git hub pages
+
 # Feature Branches 
 
 ## Naming Convention:
   feature_name
   
  
- ## HTML Breakdown
+## HTML Breakdown
   
- ### Header
+### Header
      Nav Primary - W
      Nav Secondary - W
         
