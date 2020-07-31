@@ -116,7 +116,11 @@ button {
 .banner_membership-heading {
   color: #fff;
   font-size: 2.2rem;
+<<<<<<< HEAD
   font-weight: 800;
+=======
+  font-weight: 700;
+>>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   line-height: 1.2;
   font-family: 'josefin-sans', sans-serif;
   text-transform: uppercase; }
@@ -143,6 +147,7 @@ button {
   line-height: 1.5;
   text-align: left;
   color: #fff;
+<<<<<<< HEAD
   font-family: 'josefin-sans'; }
 
 banner_membership-btn_container {
@@ -177,6 +182,8 @@ banner_membership-btn_container {
   justify-content: center; }
 
 .mail-list__cta {
+=======
+>>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   font-family: 'josefin-sans', sans-serif; }
 
 .banner_membership-btn_container {
@@ -187,12 +194,17 @@ banner_membership-btn_container {
   -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
   display: inline-block;
+<<<<<<< HEAD
   margin: 4rem;
   padding: 0.5rem;
+=======
+  padding: 6px 13px 10px;
+>>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
   border-color: #fff;
+<<<<<<< HEAD
   color: #fff; }
 
 .mail-list__cta:hover {
@@ -201,6 +213,9 @@ banner_membership-btn_container {
   font-family: josefin-sans, sans-serif !important;
   font-weight: 800;
   text-transform: uppercase;
+=======
+  color: #fff;
+>>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   margin: 5rem 0; }
 
 .banner_membership-btn {
@@ -269,7 +284,8 @@ banner_membership-btn_container {
   color: #f5ad10; }
 
 .news {
-  padding-top: 4rem; }
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
 
 .news_container {
   display: flex;
@@ -385,8 +401,11 @@ banner_membership-btn_container {
   font-family: 'josefin-sans';
   font-weight: 700;
   src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }
+<<<<<<< HEAD
 
 @font-face {
   font-family: 'josefin-sans';
   font-weight: 800;
   src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }
+=======
+>>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
