@@ -1,9 +1,13 @@
-.nav__wrapper{
+.nav__wrapper, .nav__wrapper--secondary{
     width: 100%;
-    background-color: #282827;
     display:flex;
     justify-content: center;
 }
+
+.nav__wrapper{
+    background-color: #282827;
+}
+
 .nav__container, .nav__container--secondary{
     display: flex;
     justify-content: space-between;
