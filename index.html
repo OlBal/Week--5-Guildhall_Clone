@@ -7,26 +7,53 @@
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-    <nav class="nav__container">
-        <ul class="nav__list-group">
-            <li>
-                <a href="#">Home</a>
-             </li>
-            <li>
-                <a href="#">About Guildhall</a>
-             </li>
-            <li>
-                <a href="#">Equipment Hire & Services</a>
-             </li>
-            <li>
-                <a href="#">Contact</a>
-             </li>
-        </ul>
- 
-        <input type="button" value="search" class="nav__btn--search">
-        <a href="#" class="nav__btn--donate">Donate</a>
- 
-     </nav>
+    <div class="nav__wrapper">
+        <nav class="nav__container">
+            <ul>
+                <li class="nav__link">
+                    <a href="#">Home</a>
+                 </li>
+                <li class="nav__link">
+                    <a href="#">About Guildhall</a>
+                 </li>
+                <li class="nav__link">
+                    <a href="#">Equipment Hire & Services</a>
+                 </li>
+                <li class="nav__link">
+                    <a href="#">Contact</a>
+                 </li>
+            </ul>
+     
+            <div>
+                <button class="nav__btn--search">Search </button>
+                <a href="#" class="nav__btn--donate">Donate</a>
+            </div>
+         </nav>
+        </div>
+        <div class="nav__wrapper--secondary">
+            <nav class="nav__container--secondary">
+                <ul>
+                    <li class="nav__link--secondary">
+                        <a href="#">what's on</a>
+                    </li>
+                    <li class="nav__link--secondary">
+                        <a href="#">Your Visit</a>
+                    </li>
+                    <li class="nav__link--secondary">
+                        <a href="#">Support</a>
+                    </li>
+                    <li class="nav__link--secondary">
+                        <a href="#">Get Involved</a>
+                    </li>
+                    <li class="nav__link--secondary">
+                        <a href="#">conferencing</a>
+                    </li>
+                    <li class="nav__link--secondary">
+                        <a href="#">occasions</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
     <section>
         hero 
@@ -45,16 +72,70 @@
     </section>
 
     <section class ="banner_membership">
-        <h1 class = "banner_membership-heading">Become A Guildhall Member</h1>
-        <span class="news_line banner_membership_line"></span>
-        <h3 class = "banner_membership-subheading">Enjoy exclusive benefits! </h3>
-        <p class ="banner_membership_text">There are three levels of Annual Membership to choose from...</p>
+        <div class="banner_membership_wrapper">
+            <article class="banner_membership-title-container">
+                <h1 class = "banner_membership-heading">Become A Guildhall Member</h1>
+                <span class="news_line banner_membership_line"></span>
+                <h3 class = "banner_membership-subheading">Enjoy exclusive benefits! </h3>
+                <p class ="banner_membership_text">There are three levels of Annual Membership to choose from...</p>
+            </article>
+            <div class="banner_membership-btn_container">
+                <div class="banner_membership-btn">
+                    <a href="#">FIND OUT MORE</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section>
-        latest news - cards
-    </section>
 
+        
+    <section class ="news">
+        <div container="news_container">
+            <div class = "news_top-row">
+                <h1 class = "news_header-left">LATEST NEWS</h1>
+                <a class = "news_more" href="#">MORE</a>
+            </div>
+            <div class ="news_article_wrapper">
+                        <article class="news_article">
+                            <div class ="news_card">
+                            <div class= "news_image">
+                            <a href="#"><img class="card_image" alt="Summer Staycation" src="img/SS-no-logo-510x287.png"></a>
+                        </div>
+                        <div class = "news_card_lower">    
+                            <h1 class = "news_title"><a href="#">SUMMER STAYCATION</a></h1>
+                            <span class="news_line"></span>
+                            <span class ="news_date">28th Jul 2020</span>
+                            <p class ="news_text">Make the most of your summer with Portsmouth Guildhall's series of online events!</p>
+                        </div>
+                    </article>
+                     <article class="news_article">
+                        <div class ="news_card">
+                            <div class= "news_image">
+                                <a href="#"><img class="card_image" alt="Theatre Seats" src="img/UVG-Sing-A-Long--510x287.png"></a>
+                            </div>
+                            <div class = "news_card_lower">    
+                                <h1 class = "news_title"><a href="#">MUSICAL WEEK: LYRICS FOR SING-A-LONG 22ND JULY</a></h1>
+                                <span class="news_line"></span>
+                                <span class ="news_date">22nd Jul 2020</span>
+                                <p class ="news_text">This week the theme is musicals</p>
+                            </div>
+                    </article>
+                    <article class="news_article">
+                        <div class ="news_card">
+                            <div class= "news_image">
+                                <a href="#"><img class="card_image" alt="Woman Singing" src="img/uvg-singalong-1-510x287-1.png"></a>
+                            </div>
+                            <div class = "news_card_lower">
+                                <h1 class = "news_title"><a href="#"> LYRICS FOR SING-A-LONG 15TH JULY</a></h1>
+                                <span class="news_line"></span>
+                                <span class ="news_date">15th Jul 2020</span>
+                                <p class ="news_text">Join the UVG for a Sing-A-Long at 4pm </p>
+                            </div>
+                        </div>
+                    </article>
+                 </div>
+            </div>
+        </section>
     <section>
         banner - join our mailing list
     </section>

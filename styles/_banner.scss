@@ -1,0 +1,66 @@
+
+.banner_membership{
+
+    background-image: url(/img/banner_background.png);
+    background-size: 50%;
+    padding:4rem 0;
+    background-attachment:fixed;
+}
+
+
+.banner_membership_wrapper{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+
+.banner_membership-title-container{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+.banner_membership-heading{
+    color:#fff;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    font-family: 'josefin', sans-serif;
+    text-transform: uppercase;
+}
+
+.banner_membership_line{
+    background-color:#fff ;
+}
+
+.banner_membership-subheading{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1.2em 0;
+    font-family: 'josefin', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.banner_membership_text{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    color:#fff;
+    font-family: 'josefin', sans-serif;
+
+}
+
+.banner_membership-btn_container{
+display:flex;
+transform: roatate(90deg);
+
+}
+
+
+
+.banner_membership-btn{
+font-family: 'josefin', sans-serif;
+}

@@ -1,3 +1,63 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a, a:visited {
+  color: inherit;
+  text-decoration: inherit; }
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; }
+
 :root {
   --blue: #007bff;
   --breakpoint-lg: 992px;
@@ -28,19 +88,212 @@
   --white: #fff;
   --yellow: #ffc107; }
 
-p {
-  color: black; }
+.banner_membership {
+  background-image: url(/img/banner_background.png);
+  background-size: 50%;
+  padding: 4rem 0;
+  background-attachment: fixed; }
 
-nav {
-  border: 1px solid red; }
+.banner_membership_wrapper {
+  display: flex;
+  justify-content: space-evenly; }
 
-body {
-  background-color: red; }
+.banner_membership-title-container {
+  display: flex;
+  flex-direction: column; }
+
+.banner_membership-heading {
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-family: 'josefin', sans-serif;
+  text-transform: uppercase; }
+
+.banner_membership_line {
+  background-color: #fff; }
+
+.banner_membership-subheading {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1.2em 0;
+  font-family: 'josefin', sans-serif;
+  text-transform: uppercase; }
+
+.banner_membership_text {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff;
+  font-family: 'josefin', sans-serif; }
+
+.banner_membership-btn_container {
+  display: flex;
+  transform: roatate(90deg); }
+
+.banner_membership-btn {
+  font-family: 'josefin', sans-serif; }
+
+.nav__wrapper, .nav__wrapper--secondary {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.nav__wrapper {
+  background-color: #282827; }
+
+.nav__container, .nav__container--secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  font-family: 'josefin-sans',sans-serif;
+  text-transform: uppercase; }
 
 .nav__container {
-  display: flex;
-  width: 100%; }
+  color: white;
+  font-size: 0.7rem; }
 
-.nav__list-group {
+.nav__link {
   display: inline-block;
-  color: green; }
+  font-size: 0.7rem;
+  padding: 8px;
+  margin: 0 1rem;
+  text-decoration: none; }
+
+.nav__btn--search {
+  background-color: inherit;
+  color: white;
+  text-transform: inherit;
+  padding: 0.7rem; }
+
+.nav__link:hover, .nav__btn--search:hover {
+  color: #ddd; }
+
+.nav__btn--donate {
+  background-color: #f5ad10;
+  display: inline-block;
+  padding: 0.7rem;
+  align-items: center; }
+
+.nav__wrapper--secondary {
+  background-color: #fff; }
+
+.nav__link--secondary {
+  display: inline-block;
+  padding: 1rem; }
+
+.nav__link--secondary:hover {
+  color: #f5ad10; }
+
+.news_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 60rem;
+  max-height: auto; }
+
+.news_top-row {
+  max-width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem 0 4rem;
+  padding-bottom: 15px; }
+
+.news_header-left {
+  font-family: 'josefin-sans';
+  font-size: 2rem;
+  line-height: 1; }
+
+.news_more {
+  font-family: 'josefin-sans';
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black; }
+
+.news_more a:visited {
+  color: black; }
+
+.news_more:hover {
+  color: #f5ad10; }
+
+.news_article_wrapper {
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  justify-content: space-evenly;
+  flex-wrap: nowrap; }
+
+.news_article {
+  display: flex;
+  width: 22rem;
+  height: 23.75rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  object-fit: cover;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15); }
+
+.news_card {
+  object-fit: cover;
+  width: auto;
+  height: 23.75rem; }
+
+.news_title a {
+  text-decoration: none; }
+
+.news_title a:link {
+  color: black; }
+
+.news_title a:visited {
+  color: black; }
+
+.news_title {
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1em;
+  font-family: 'josefin-sans';
+  margin-top: 1rem; }
+
+.news_title a:hover {
+  color: #f5ad10; }
+
+.card_image {
+  max-height: auto;
+  max-width: 100%;
+  object-fit: cover; }
+
+.news_line {
+  background-color: #f5ad10;
+  display: block;
+  height: 3px;
+  margin-bottom: 1rem;
+  margin-top: .8rem;
+  width: 40px; }
+
+.news_date {
+  display: block;
+  font-size: .9rem;
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 1rem; }
+
+.news_text {
+  font-size: 0.9rem;
+  line-height: 1.2; }
+
+.news_card_lower {
+  margin-left: 1rem;
+  margin-right: 0.5rem; }
+
+:root {
+  font-size: 15px;
+  --header-font: 
+; }
+
+@font-face {
+  font-family: 'josefin-sans';
+  font-weight: 600;
+  src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }
