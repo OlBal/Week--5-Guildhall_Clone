@@ -58,6 +58,9 @@ button {
   cursor: pointer;
   outline: inherit; }
 
+* {
+  box-sizing: border-box; }
+
 :root {
   --blue: #007bff;
   --breakpoint-lg: 992px;
@@ -224,11 +227,136 @@ banner_membership-btn_container {
   font-weight: 800;
   color: #fff; }
 
+<<<<<<< HEAD
 .banner_membership-btn a {
   outline: none;
   outline-color: currentcolor;
   outline-style: none;
   outline-width: medium; }
+=======
+.banner__mail-list__header {
+  font-family: josefin-sans, sans-serif !important;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2rem; }
+
+.banner__mail {
+  background-color: #333;
+  width: 100%;
+  height: 265px;
+  color: #fff; }
+
+.banner__mail-bg {
+  position: absolute;
+  padding: 5rem;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: 50%;
+  background-image: url(https://portsmouthguildhall.org.uk/app/uploads/2018/10/Light_Big.png); }
+
+.banner__mail-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.mail-list__cta {
+  border-style: solid;
+  border-width: 3px;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  font-family: josefin-sans, sans-serif !important;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 1.5rem 2px 2px 0;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-color: #fff;
+  color: #fff; }
+
+.mail-list__cta:hover {
+  border-color: #f5ad10;
+  color: #f5ad10;
+  font-family: josefin-sans, sans-serif !important;
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.contact__wrapper {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'josefin-sans',sans-serif;
+  padding: 2rem; }
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  margin: auto;
+  max-width: 700px;
+  padding: 1rem;
+  row-gap: 10px; }
+
+.contact__header {
+  font-size: 1.4rem; }
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+  margin-right: 0.7rem; }
+
+.contact__socials {
+  margin-left: auto; }
+
+.contact__follow-header {
+  display: inline;
+  margin-right: 0.7rem; }
+
+.contact__nav {
+  line-height: 1.5rem; }
+
+.contact__nav-link {
+  margin-top: 1rem;
+  color: #9c9c9c; }
+
+.contact__nav-link:hover {
+  color: #f5ad10; }
+
+.contact__box-office {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  background-color: #282827; }
+
+.contact__box-office--head {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-top: 1rem; }
+
+.contact__box-office--mail {
+  font-weight: 800;
+  text-transform: none;
+  margin-top: 1rem; }
+
+.contact__box-office--mail:hover {
+  color: #ddd; }
+
+.contact__box-office--msg {
+  font-size: .7rem;
+  line-height: 1.2;
+  text-transform: none;
+  margin-top: 1rem; }
+>>>>>>> master
 
 .nav__wrapper, .nav__wrapper--secondary {
   width: 100%;
