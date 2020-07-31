@@ -1,19 +1,30 @@
 
+
 .banner_membership{
+    padding-top:4rem;
+    padding-bottom:4rem;
+
+
+}
+
+.background{
 
     background-image: url(/img/banner_background.png);
     background-size:50%;
-    padding:4rem 0;
+    padding-top:6rem;
+    padding-bottom:6rem;
     background-attachment:fixed;
     background-color:#f5ad10;
     max-height:12.5rem;
-    padding-top:0 4rem 0 4rem  ;
+    position:static;
 }
 
 
 .banner_membership_wrapper{
+    height: 75%;
     display:flex;
     justify-content: space-evenly;
+    
 
 }
 
@@ -22,6 +33,7 @@
     display:flex;
     flex-direction: column;
     padding:0 4rem 0 4rem;
+    align-items: flex-start;
 
 }
 
@@ -29,21 +41,29 @@
 .banner_membership-heading{
     color:#fff;
     font-size: 2.2rem;
+    font-weight: 700;
     line-height: 1.2;
-    font-family: 'josefin', sans-serif;
+    font-family: 'josefin-sans', sans-serif;
     text-transform: uppercase;
 }
 
 .banner_membership_line{
     background-color:#fff ;
+    display: block;
+    height: 3px;
+    margin-bottom: 0.6rem;
+    margin-top: .8rem;
+    width: 40px;
+
 }
 
 .banner_membership-subheading{
     color: #fff;
     font-size: 1rem;
     line-height: 1.5;
-    margin: 1.2em 0;
-    font-family: 'josefin', sans-serif;
+    margin: 0.8rem 0;
+    font-family: 'josefin-sans',sans-serif;
+    font-weight:700;
     text-transform: uppercase;
 
 }
@@ -53,18 +73,40 @@
     line-height: 1.5;
     text-align: left;
     color:#fff;
-    font-family: 'josefin', sans-serif;
+    font-family: 'josefin-sans', sans-serif;
 
 }
 
 .banner_membership-btn_container{
-display:flex;
-transform: roatate(90deg);
-
+    display:flex;
+    transform: rotate(90deg);
+    border-style: solid;
+    border-width: 3px;
+    -webkit-box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    box-shadow: 0 0 25px 0 rgba(0,0,0,.15);
+    display: inline-block;
+    padding: 6px 13px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-color: #fff;
+    color: #fff;
+    margin: 5rem 0;
+    
 }
 
 
 
 .banner_membership-btn{
-font-family: 'josefin', sans-serif;
+font-family: 'josefin-sans', sans-serif;
+font-size: 1.2rem;
+font-weight: 800;
+color:#fff;
+}
+
+.banner_membership-btn a{
+    outline: none;
+    outline-color: currentcolor;
+    outline-style: none;
+    outline-width: medium;
 }
