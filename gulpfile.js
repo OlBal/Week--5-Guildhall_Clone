@@ -41,13 +41,13 @@ gulp.task( 'minify-css', () => {
   .pipe( gulp.dest( './css/' ) );
 } );
 
+gulp.task( 'watch', function () {
+  return gulp.watch(['./styles/*.scss', 'js/.*js'],
+  gulp.task( 'minifystyle' ) );
+});
+
 gulp.task( 'minifystyle', gulp.series( 'sass', 'minify-css', reload ) );
 
-gulp.task( 'watch', function () {
-    return gulp.watch(['./styles/*.scss', 'js/.*js'],
-            gulp.task( 'minifystyle' ) );
-  } );
-  
 gulp.task('default', gulp.series(serve, 'watch'));
 
  
