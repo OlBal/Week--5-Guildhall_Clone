@@ -24,3 +24,18 @@
     text-align: left;
     color:#fff;
 }
+
+.banner__mail--bg{
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+}
+
+.banner__mail-list{
+    position: absolute;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: 50%;
+    padding: 5rem 0;
+    background-image: url(https://portsmouthguildhall.org.uk/app/uploads/2018/10/Light_Big.png)
+}
