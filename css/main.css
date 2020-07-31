@@ -93,16 +93,13 @@ button {
 
 .banner_membership {
   padding-top: 4rem;
-  padding-bottom: 4rem; }
-
-.background {
+  padding-bottom: 4rem;
   background-image: url(/img/banner_background.png);
   background-size: 50%;
   padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   background-attachment: fixed;
   background-color: #f5ad10;
-  max-height: 12.5rem;
   position: static; }
 
 .banner_membership_wrapper {
@@ -110,20 +107,10 @@ button {
   display: flex;
   justify-content: space-evenly; }
 
-.banner_membership-title-container {
-  display: flex;
-  flex-direction: column;
-  padding: 0 4rem 0 4rem;
-  align-items: flex-start; }
-
 .banner_membership-heading {
   color: #fff;
   font-size: 2.2rem;
-<<<<<<< HEAD
-  font-weight: 800;
-=======
   font-weight: 700;
->>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   line-height: 1.2;
   font-family: 'josefin-sans', sans-serif;
   text-transform: uppercase; }
@@ -150,43 +137,6 @@ button {
   line-height: 1.5;
   text-align: left;
   color: #fff;
-<<<<<<< HEAD
-  font-family: 'josefin-sans'; }
-
-banner_membership-btn_container {
-  display: flex;
-  transform: rotate(90deg); }
-
-.banner__mail-list__header {
-  font-family: josefin-sans, sans-serif !important;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 2rem; }
-
-.banner__mail {
-  background-color: #333;
-  width: 100%;
-  height: 265px;
-  color: #fff; }
-
-.banner__mail-bg {
-  position: absolute;
-  padding: 5rem;
-  width: 100%;
-  background-attachment: fixed;
-  background-size: 50%;
-  background-image: url(https://portsmouthguildhall.org.uk/app/uploads/2018/10/Light_Big.png); }
-
-.banner__mail-container {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.mail-list__cta {
-=======
->>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   font-family: 'josefin-sans', sans-serif; }
 
 .banner_membership-btn_container {
@@ -197,28 +147,12 @@ banner_membership-btn_container {
   -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
   display: inline-block;
-<<<<<<< HEAD
-  margin: 4rem;
-  padding: 0.5rem;
-=======
   padding: 6px 13px 10px;
->>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
   border-color: #fff;
-<<<<<<< HEAD
-  color: #fff; }
-
-.mail-list__cta:hover {
-  border-color: #f5ad10;
-  color: #f5ad10;
-  font-family: josefin-sans, sans-serif !important;
-  font-weight: 800;
-  text-transform: uppercase;
-=======
   color: #fff;
->>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
   margin: 5rem 0; }
 
 .banner_membership-btn {
@@ -227,64 +161,11 @@ banner_membership-btn_container {
   font-weight: 800;
   color: #fff; }
 
-<<<<<<< HEAD
 .banner_membership-btn a {
   outline: none;
   outline-color: currentcolor;
   outline-style: none;
   outline-width: medium; }
-=======
-.banner__mail-list__header {
-  font-family: josefin-sans, sans-serif !important;
-  font-weight: 800;
-  text-transform: uppercase;
-  font-size: 2rem; }
-
-.banner__mail {
-  background-color: #333;
-  width: 100%;
-  height: 265px;
-  color: #fff; }
-
-.banner__mail-bg {
-  position: absolute;
-  padding: 5rem;
-  width: 100%;
-  background-attachment: fixed;
-  background-size: 50%;
-  background-image: url(https://portsmouthguildhall.org.uk/app/uploads/2018/10/Light_Big.png); }
-
-.banner__mail-container {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.mail-list__cta {
-  border-style: solid;
-  border-width: 3px;
-  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
-  display: inline-block;
-  font-family: josefin-sans, sans-serif !important;
-  font-size: 1.2rem;
-  font-weight: 800;
-  line-height: 1;
-  margin: 1.5rem 2px 2px 0;
-  padding: 1rem 2rem;
-  text-align: center;
-  text-transform: uppercase;
-  white-space: nowrap;
-  border-color: #fff;
-  color: #fff; }
-
-.mail-list__cta:hover {
-  border-color: #f5ad10;
-  color: #f5ad10;
-  font-family: josefin-sans, sans-serif !important;
-  font-weight: 800;
-  text-transform: uppercase; }
 
 .contact__wrapper {
   width: 100%;
@@ -356,7 +237,6 @@ banner_membership-btn_container {
   line-height: 1.2;
   text-transform: none;
   margin-top: 1rem; }
->>>>>>> master
 
 .nav__wrapper, .nav__wrapper--secondary {
   width: 100%;
@@ -529,11 +409,3 @@ banner_membership-btn_container {
   font-family: 'josefin-sans';
   font-weight: 700;
   src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }
-<<<<<<< HEAD
-
-@font-face {
-  font-family: 'josefin-sans';
-  font-weight: 800;
-  src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }
-=======
->>>>>>> 54c719492192ca35ad981199d28ebdcf72707a4b
