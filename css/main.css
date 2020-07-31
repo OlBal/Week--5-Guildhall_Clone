@@ -58,6 +58,9 @@ button {
   cursor: pointer;
   outline: inherit; }
 
+* {
+  box-sizing: border-box; }
+
 :root {
   --blue: #007bff;
   --breakpoint-lg: 992px;
@@ -110,25 +113,49 @@ button {
   text-align: left;
   color: #fff; }
 
+.contact__wrapper {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'josefin-sans',sans-serif;
+  padding: 2rem; }
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  margin: auto;
+  max-width: 700px;
+  padding: 1rem;
+  row-gap: 10px; }
+
+.contact__header {
+  font-size: 1.4rem; }
+
 .svg-inline--fa {
   display: inline-block;
   font-size: inherit;
   height: 1em;
   overflow: visible;
-  vertical-align: -.125em; }
-
-.contact__wrapper {
-  width: 100%;
-  max-width: 1000px;
-  background-color: #333;
-  color: white;
-  text-transform: uppercase;
-  display: grid;
-  grid-template-columns: 300px 700px;
-  margin: auto; }
+  vertical-align: -.125em;
+  margin-right: 0.7rem; }
 
 .contact__socials {
-  display: flex; }
+  margin-left: auto; }
+
+.contact__follow-header {
+  display: inline;
+  margin-right: 0.7rem; }
+
+.contact__nav {
+  line-height: 1.5rem; }
+
+.contact__nav-link {
+  margin-top: 1rem;
+  color: #9c9c9c; }
+
+.contact__nav-link:hover {
+  color: #f5ad10; }
 
 .contact__box-office {
   display: flex;
@@ -140,16 +167,22 @@ button {
 
 .contact__box-office--head {
   font-size: 1.4rem;
-  font-weight: 800; }
+  font-weight: 800;
+  margin-top: 1rem; }
 
 .contact__box-office--mail {
   font-weight: 800;
-  text-transform: none; }
+  text-transform: none;
+  margin-top: 1rem; }
+
+.contact__box-office--mail:hover {
+  color: #ddd; }
 
 .contact__box-office--msg {
   font-size: .7rem;
   line-height: 1.2;
-  text-transform: none; }
+  text-transform: none;
+  margin-top: 1rem; }
 
 .nav__wrapper, .nav__wrapper--secondary {
   width: 100%;
