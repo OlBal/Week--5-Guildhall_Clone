@@ -1,4 +1,67 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+=======
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a, a:visited {
+  color: inherit;
+  text-decoration: inherit; }
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit; }
+
+>>>>>>> 2dac8d4d770edc534ff7eb30af02c62942a720c8
 :root {
   --blue: #007bff;
   --breakpoint-lg: 992px;
@@ -29,16 +92,71 @@
   --white: #fff;
   --yellow: #ffc107; }
 
+<<<<<<< HEAD
 nav {
   border: 1px solid red; }
+=======
+p {
+  color: black; }
 
-body {
-  background-color: red; }
+.nav__wrapper, .nav__wrapper--secondary {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+>>>>>>> 2dac8d4d770edc534ff7eb30af02c62942a720c8
+
+.nav__wrapper {
+  background-color: #282827; }
+
+.nav__container, .nav__container--secondary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  font-family: 'josefin-sans',sans-serif;
+  text-transform: uppercase; }
 
 .nav__container {
-  display: flex;
-  width: 100%; }
+  color: white;
+  font-size: 0.7rem; }
 
-.nav__list-group {
+.nav__link {
   display: inline-block;
-  color: green; }
+  font-size: 0.7rem;
+  padding: 8px;
+  margin: 0 1rem;
+  text-decoration: none; }
+
+.nav__btn--search {
+  background-color: inherit;
+  color: white;
+  text-transform: inherit;
+  padding: 0.7rem; }
+
+.nav__link:hover, .nav__btn--search:hover {
+  color: #ddd; }
+
+.nav__btn--donate {
+  background-color: #f5ad10;
+  display: inline-block;
+  padding: 0.7rem;
+  align-items: center; }
+
+.nav__wrapper--secondary {
+  background-color: #fff; }
+
+.nav__link--secondary {
+  display: inline-block;
+  padding: 1rem; }
+
+.nav__link--secondary:hover {
+  color: #f5ad10; }
+
+:root {
+  font-size: 15px; }
+
+@font-face {
+  font-family: 'josefin-sans';
+  font-weight: 600;
+  src: url("./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf") format("opentype"); }

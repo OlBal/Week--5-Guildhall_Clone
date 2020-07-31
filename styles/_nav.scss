@@ -1,15 +1,62 @@
-.nav__container{
-    display: flex;
-    width:100%;
+.nav__wrapper, .nav__wrapper--secondary{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
 
+.nav__wrapper{
+    background-color: #282827;
 }
-.nav__list-group{
+
+.nav__container, .nav__container--secondary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    max-width: 1000px;
+    font-family: 'josefin-sans',sans-serif;
+    text-transform: uppercase;
+}
+.nav__container{
+    color:white;
+    font-size: 0.7rem;
+}
+
+.nav__link{
     display: inline-block;
-    color: green;
+    font-size: 0.7rem;
+    padding:8px;
+    margin: 0 1rem;
+    text-decoration: none;
 }
+
 .nav__btn--search{
-    
+    background-color: inherit;
+    color: white;
+    text-transform: inherit;
+    padding: 0.7rem;
+}
+
+.nav__link:hover, .nav__btn--search:hover{
+    color: #ddd
 }
 .nav__btn--donate{
+    background-color: #f5ad10;
+    display: inline-block;
+    padding: 0.7rem;
+    align-items: center;
+}
 
+
+.nav__wrapper--secondary{
+    background-color: #fff;
+}
+
+.nav__link--secondary{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav__link--secondary:hover{
+    color: #f5ad10
 }
