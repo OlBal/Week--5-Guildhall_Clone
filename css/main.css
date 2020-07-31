@@ -88,8 +88,27 @@ button {
   --white: #fff;
   --yellow: #ffc107; }
 
-p {
-  color: black; }
+.banner_membership-heading {
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 1.2;
+  font-family: 'Lato', sans-serif; }
+
+.banner_membership_line {
+  background-color: #fff; }
+
+.banner_membership-subheading {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 1.2em 0;
+  font-family: 'josefin', sans-serif; }
+
+.banner_membership_text {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  color: #fff; }
 
 .nav__wrapper, .nav__wrapper--secondary {
   width: 100%;
@@ -145,7 +164,9 @@ p {
   color: #f5ad10; }
 
 :root {
-  font-size: 15px; }
+  font-size: 15px;
+  --header-font: 
+; }
 
 @font-face {
   font-family: 'josefin-sans';
